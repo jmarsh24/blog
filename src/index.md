@@ -22,6 +22,7 @@ Current Project: [TangotubeTV](https://tangotube.tv)
   <% collections.posts.resources.each do |post| %>
   <a href="<%= post.relative_url %>">
     <h2><%= post.data.title %></h2>
+    <p><%= post.data.description %></p>
     <%= post.data.date.strftime('%d %b %Y') %>
     </a>
   <% end %>
