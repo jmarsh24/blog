@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Your First Post on Bridgetown"
+title:  "My First Post"
 date:   2022-08-18 21:46:24 +0200
 categories: updates
 ---
-<img src="<%= relative_url '/images/main-avatar.jpg' %>" alt="avatar" />
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bridgetown serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Bridgetown requires blog post files to be named according to the following format:
