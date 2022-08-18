@@ -14,6 +14,31 @@ body {
   margin: 0 8px;
   font-size: 108%;
   line-height: 1.5;
+  header {
+    margin: 1rem;
+    text-align: center;
+    img {
+      display: inline-block;
+      width: 400px;
+      max-width: 100%;
+    }
+  }
+
+  nav {
+    ul {
+      margin: 2rem 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
 a {
@@ -24,37 +49,11 @@ a {
 
 h1 {
   margin: 1rem 0 3rem;
-  text-align: center;
+  // text-align: center;
   font-weight: 900;
   font-size: 2.5rem;
   color: var(--heading-color);
   line-height: 1.2;
-}
-
-body > header {
-  margin: 1rem;
-  text-align: center;
-}
-
-body > header img {
-  display: inline-block;
-  width: 400px;
-  max-width: 100%;
-}
-
-body > nav ul {
-  margin: 2rem 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-body > nav a {
-  text-decoration: none;
 }
 
 main {
@@ -81,4 +80,11 @@ hr {
   border: none;
   border-top: 2px dotted #bbb;
   margin: 3rem 0;
+}
+
+.avatar {
+  width: 100px;
+  &--main {
+    border-radius: 50%;
+  }
 }
