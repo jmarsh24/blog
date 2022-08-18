@@ -3,6 +3,7 @@
   --body-color: #444;
   --heading-color: black;
   --action-color: #d64045;
+  --nav-background: #f1f1f1;
 }
 
 body {
@@ -15,8 +16,6 @@ body {
   font-size: 108%;
   line-height: 1.5;
   header {
-    margin: 1rem;
-    text-align: center;
     img {
       display: inline-block;
       width: 400px;
@@ -26,10 +25,12 @@ body {
 
   nav {
     ul {
-      margin: 2rem 0;
-      padding: 0;
+      margin: auto;
+      padding: 2rem;
+      background-color: var(--nav-background);
       list-style-type: none;
       display: flex;
+      align-items: center;
       justify-content: center;
       gap: 1.5rem;
       font-size: 1.3rem;
@@ -43,7 +44,7 @@ body {
 
 a {
   color: var(--action-color);
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-color: #ffb088;
 }
 
@@ -56,8 +57,8 @@ h1 {
 }
 
 main {
-  margin: 2rem auto 4rem;
-  max-width: 65rem;
+  margin: 0 auto;
+  max-width: 65ch;
   min-height: calc(100vh - 200px);
   padding: 25px 25px 50px;
   background: white;
@@ -72,7 +73,10 @@ main {
 footer {
   text-align: center;
   margin-bottom: 4rem;
-  font-size: 1em;
+  font-size: 0.7em;
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 hr {
