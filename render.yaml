@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: blog-render
+    name: blog
     env: static
     buildCommand: bin/bridgetown deploy
     staticPublishPath: ./output
