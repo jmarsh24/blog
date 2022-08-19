@@ -10,8 +10,6 @@ layout: default
 </div>
 <h1 style="margin: 0;">Justin Marsh</h1>
 
-testing cname 2
-
 Full Stack Ruby on Rails Software Engineer 🤓, Tango Dancer 💃🏻,
 and Cooking Enthusiast 👨🏻‍🍳. This is my personal website where I
 document my journey as a full stack developer and publish tutorials for myself
